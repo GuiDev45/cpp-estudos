@@ -26,7 +26,7 @@ int main()
   name.append(" Green");
   cout << name << endl;
 
-  // Concatenando e usando método append
+  // Concatenando name ao final de title (isso altera o valor de title)
   cout << title.append(name) << endl;
 
   // retorna 0 para saber se o código deu certo
